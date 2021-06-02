@@ -8,7 +8,8 @@ def wallis(n):
         pi *= (4 * (i * i) / ((4 * (i * i) - 1)))
         i += 1
 
-    return pi
+    return 10
+   
 
 def monte_carlo(n):
     circle_points= 0
